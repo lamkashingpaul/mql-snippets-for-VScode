@@ -438,6 +438,11 @@
     "body": "EnumToString(${1:any_enum value})$0",
     "description": "<string> Converting an enumeration value of any type to a text form."
   },
+  "IntegerToString": {
+    "prefix": "IntegerToString",
+    "body": "IntegerToString(${1:long number}, ${2:int str_len=8}, ${3:ushort fill_symbol=' '})$0",
+    "description": "<string> Converting value of integer type into a string of a specified length and returns the obtained string."
+  },
   "TimeToString": {
     "prefix": "TimeToString",
     "body": "TimeToString(${1:datetime value}, ${2:int mode=TIME_DATE|TIME_MINUTES})$0",
